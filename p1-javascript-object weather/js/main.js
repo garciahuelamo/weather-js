@@ -95,6 +95,7 @@ function showDataDOM() {
                             icon = "❄️";
                         } else if (tempAvg > 0 && tempAvg < 15) {
                             icon = "☁️";
+                        } else if (tempAvg >= 15 && tempAvg < 30) {
                             icon = "🌤";
                         } else {
                             icon = "🌞";
