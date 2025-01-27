@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Weather 7 Days</title>
+</head>
+<body>
+    <h1>Weather - 7 Days</h1>
+    <hr/>
+
+    <div id="output" style="text-align: center;"></div>
+
+    <div id="formContainer" class="form-container"></div>
+    
+    <div id="resultContainer" class="result-container"style="display: none;">
+        <h2>Weekly Temperature Summary</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Day</th>
+                    <th>Max Temp (°C)</th>
+                    <th>Min Temp (°C)</th>
+                </tr>
+            </thead>
+            <tbody id="resultTable"></tbody>
+        </table>
+        <p id="meanTemp"></p>
+        <script src="./js/main.js"></script>
+    </div>
+</body>
+</html>
